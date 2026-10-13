@@ -1,0 +1,5 @@
+-- Intentionally empty.
+--
+-- The existing Supabase project has a schema and attendance data already.
+-- Do not bootstrap, recreate tables, or replace policies from this file.
+-- See README.md and supabase/migrations for the reviewable, additive rollout.

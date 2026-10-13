@@ -1,0 +1,10 @@
+-- Existing Supabase database baseline.
+--
+-- This migration intentionally performs no schema changes. The remote project
+-- already owns profiles, events, attendance, policies, and attendance records;
+-- the prior bootstrap script did not match that schema and replaced policies.
+-- Keep this version as a no-op baseline so `supabase db push` cannot recreate
+-- tables or reset policies. Use the additive migrations that follow.
+--
+-- This baseline is for the existing project only. A new project needs a
+-- separately reviewed bootstrap schema before applying the attendance RPC.
